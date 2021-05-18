@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App'
+import router from './router'
 
-import './base.css'
-
-new Vue({
+new Vue({  //配置对象的属性名是固定的
   el:'#app',
   components:{App},
-  template:'<App/>'
+  template:'<App/>',
+  router
 })
